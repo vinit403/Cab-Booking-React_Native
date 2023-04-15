@@ -23,7 +23,7 @@ const Home = ({ navigation }) => {
   };
 
   useEffect(() => {
-    fetch("http://192.168.246.193/demo/cabbook/api_car.php")
+    fetch("http://192.168.223.193/demo/cabbook/api_car.php")
       .then(res => res.json())
       .then(
         (result) => {
@@ -111,7 +111,7 @@ const Home = ({ navigation }) => {
                   <View style={{ margin: 8, flexWrap: "wrap" }}>
                     <View style={{ width: 200, height: 200,  backgroundColor: "#FFFFF5", borderRadius: 15, justifyContent: 'center' }}>
                       <TouchableOpacity style={{ alignItems: 'center' }} onPress={() => navigation.navigate("Cars", { carid: item.car_id })}>
-                        <Image source={{ uri: "http://192.168.246.193/demo/cabbook/Brand%20Image/" + item.car_img }} style={{ width: 200, height: 190, borderRadius: 15 }} />
+                        <Image source={{ uri: "http://192.168.223.193/demo/cabbook/Brand%20Image/" + item.car_img }} style={{ width: 200, height: 190, borderRadius: 15 }} />
                         <Text style={styles.cartxt}>{item.car_name}</Text>
                       </TouchableOpacity>
                     </View>

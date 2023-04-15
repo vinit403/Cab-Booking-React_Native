@@ -11,7 +11,7 @@ const Login = ({navigation}) => {
   const [password, setPassword] = useState();
 
   const BtnLogin = () => {
-    fetch('http://192.168.246.193/demo/cabbook/login.php', {
+    fetch('http://192.168.223.193/demo/cabbook/login.php', {
         method: 'POST',
         headers: {
             Accept: 'application/json',

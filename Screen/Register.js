@@ -12,7 +12,7 @@ const Register = ({navigation}) => {
 
   const btnSubmit = () => {
        
-    fetch("http://192.168.246.193/demo/cabbook/register.php", {
+    fetch("http://192.168.223.193/demo/cabbook/register.php", {
         method: 'POST',
         headers: {
             Accept: 'application/json',

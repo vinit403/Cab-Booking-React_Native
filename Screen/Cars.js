@@ -1,10 +1,10 @@
-import { StyleSheet, Text, View, FlatList, TouchableOpacity, Image } from 'react-native'
+import { Text, View, FlatList, TouchableOpacity, Image } from 'react-native'
 import React, { useState, useEffect } from 'react'
 
 const Cars = ({navigation}) => {
     const [user, setUser] = useState([]);
     useEffect(() => {
-        fetch("http://192.168.246.193/demo/cabbook/api_car.php")
+        fetch("http://192.168.223.193/demo/cabbook/api_car.php")
             .then(res => res.json())
             .then(
                 (result) => {
@@ -57,7 +57,7 @@ const Cars = ({navigation}) => {
                                         </View>
 
                                         <View>
-                                            <Image source = {{ uri: "http://192.168.246.193/demo/cabbook/Brand%20Image/" + item.car_img }} style = {{ width: 115, height: 110, borderRadius: 15, marginTop: 5, justifyContent: 'space-around' }}/>  
+                                            <Image source = {{ uri: "http://192.168.223.193/demo/cabbook/Brand%20Image/" + item.car_img }} style = {{ width: 115, height: 110, borderRadius: 15, marginTop: 5, justifyContent: 'space-around' }}/>  
                                         </View>   
                                            
                                         
@@ -80,4 +80,3 @@ const Cars = ({navigation}) => {
 
 export default Cars
 
-const styles = StyleSheet.create({})

@@ -13,6 +13,7 @@ MERGED from [:lottie-react-native] F:\react_native\CabBook\node_modules\lottie-r
 MERGED from [:react-native-gesture-handler] F:\react_native\CabBook\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] F:\react_native\CabBook\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] F:\react_native\CabBook\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
 MERGED from [com.facebook.react:react-native:0.69.4] C:\Users\vinit\.gradle\caches\transforms-3\bcbca481df92adb9ac86cd25ac27b9a8\transformed\jetified-react-native-0.69.4-debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vinit\.gradle\caches\transforms-3\59db212543bf6847d500bc32383c75b1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r250230] C:\Users\vinit\.gradle\caches\transforms-3\3f83c266ccac6c7f2b518a076620525f\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:2:1-11:12
@@ -107,6 +108,8 @@ MERGED from F:\react_native\CabBook\android\app\src\main\AndroidManifest.xml:6:5
 MERGED from F:\react_native\CabBook\android\app\src\main\AndroidManifest.xml:6:5-25:19
 MERGED from [:react-native-community_datetimepicker] F:\react_native\CabBook\node_modules\@react-native-community\datetimepicker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-20
 MERGED from [:react-native-community_datetimepicker] F:\react_native\CabBook\node_modules\@react-native-community\datetimepicker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-20
+MERGED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
 MERGED from [com.facebook.react:react-native:0.69.4] C:\Users\vinit\.gradle\caches\transforms-3\bcbca481df92adb9ac86cd25ac27b9a8\transformed\jetified-react-native-0.69.4-debug\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.69.4] C:\Users\vinit\.gradle\caches\transforms-3\bcbca481df92adb9ac86cd25ac27b9a8\transformed\jetified-react-native-0.69.4-debug\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.3] C:\Users\vinit\.gradle\caches\transforms-3\6dfe711f64abfd21f5fa47082cc6df01\transformed\jetified-soloader-0.10.3\AndroidManifest.xml:11:5-20
@@ -195,6 +198,8 @@ MERGED from [:react-native-safe-area-context] F:\react_native\CabBook\node_modul
 MERGED from [:react-native-safe-area-context] F:\react_native\CabBook\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] F:\react_native\CabBook\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] F:\react_native\CabBook\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.69.4] C:\Users\vinit\.gradle\caches\transforms-3\bcbca481df92adb9ac86cd25ac27b9a8\transformed\jetified-react-native-0.69.4-debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.69.4] C:\Users\vinit\.gradle\caches\transforms-3\bcbca481df92adb9ac86cd25ac27b9a8\transformed\jetified-react-native-0.69.4-debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vinit\.gradle\caches\transforms-3\59db212543bf6847d500bc32383c75b1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
@@ -337,6 +342,22 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.125.0] C:\Users\vinit\.gradle\caches\transforms-3\0fc98b11c4641f005f09c95af9e0c4a7\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.125.0] C:\Users\vinit\.gradle\caches\transforms-3\0fc98b11c4641f005f09c95af9e0c4a7\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+provider#cl.json.RNShareFileProvider
+ADDED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-55
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:64
+	android:resource
+		ADDED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-61
+	android:name
+		ADDED from [:react-native-share] F:\react_native\CabBook\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vinit\.gradle\caches\transforms-3\a491fe997c62915d8b5e27cb1c7ee888\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\vinit\.gradle\caches\transforms-3\b4f96b26a07681f60e49336d55d7ad7c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
